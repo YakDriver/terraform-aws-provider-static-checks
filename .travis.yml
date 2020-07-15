@@ -5,7 +5,7 @@ install:
   - git config --global user.email "travis@travis-ci.org"
   - git config --global user.name "Travis CI"
   - git clone https://github.com/terraform-providers/terraform-provider-aws.git
-  - export AWS_PROVIDER_PATH=./terraform-provider-aws/aws
+  - export AWS_PROVIDER_PATH=./terraform-provider-aws
 script:
   - go install ${AWS_PROVIDER_PATH}/awsproviderlint
   - ./run_checks.sh
