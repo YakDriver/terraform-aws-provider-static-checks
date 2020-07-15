@@ -8,10 +8,9 @@ install:
   - cd ${GOPATH}/src/github.com/terraform-providers
   - git clone https://github.com/terraform-providers/terraform-provider-aws.git
   - export AWS_PROVIDER_PATH=$GOPATH/src/github.com/terraform-providers/terraform-provider-aws
-  - go get ./...
+  - go install ./awsproviderlint  
   - cd ${TRAVIS_HOME}
 script:
-  - go install ${AWS_PROVIDER_PATH}/awsproviderlint
   - ./run_checks.sh
   - git checkout master
   - git add ./results/*
