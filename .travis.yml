@@ -1,5 +1,8 @@
 language: go
 
+go:
+- 1.14.x
+
 stage: test
 install:
   - git config --global user.email "travis@travis-ci.org"
