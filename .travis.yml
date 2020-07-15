@@ -1,4 +1,4 @@
-language: sh
+language: go
 
 stage: test
 install:
