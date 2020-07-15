@@ -5,6 +5,7 @@ go:
 
 stage: test
 install:
+  - primer_lugar=${PWD}
   - git config --global user.email "travis@travis-ci.org"
   - git config --global user.name "Travis CI"
   - mkdir -p ${GOPATH}/src/github.com/terraform-providers
@@ -13,7 +14,7 @@ install:
   - cd terraform-provider-aws
   - GO111MODULE=on go install ./awsproviderlint
   - export AWS_PROVIDER_PATH=$GOPATH/src/github.com/terraform-providers/terraform-provider-aws
-  - cd ${TRAVIS_HOME}
+  - cd ${primer_lugar}
 script:
   - ./run_checks.sh
   - git checkout master
