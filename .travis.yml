@@ -5,6 +5,7 @@ install:
   - git config --global user.email "travis@travis-ci.org"
   - git config --global user.name "Travis CI"
   - cd ${GOPATH}/src/github.com/terraform-providers
+  - cd terraform-provider-aws
   - ls -hal
   - exit 1
   - mkdir terraform-providers
