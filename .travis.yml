@@ -7,7 +7,6 @@ install:
   - git clone https://github.com/terraform-providers/terraform-provider-aws.git
   - export AWS_PROVIDER_PATH=./terraform-provider-aws
 script:
-  - go get ${AWS_PROVIDER_PATH}/awsproviderlint
   - go install ${AWS_PROVIDER_PATH}/awsproviderlint
   - ./run_checks.sh
   - git checkout master
