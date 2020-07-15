@@ -1,0 +1,17 @@
+language: sh
+
+stage: test
+install:
+  - git config --global user.email "travis@travis-ci.org"
+  - git config --global user.name "Travis CI"
+  - git clone https://github.com/terraform-providers/terraform-provider-aws.git
+  - export AWS_PROVIDER_PATH=./terraform-provider-aws/aws
+script:
+  - go install ./awsproviderlint
+  - ./run_checks.sh
+  - git checkout master
+  - git add ./results/*
+  - git add README.md
+  - git commit -m "Update analysis with build $TRAVIS_BUILD_NUMBER"
+  - git remote add commit-origin https://${GH_TOKEN}@github.com/YakDriver/terraform-test-conventions.git > /dev/null 2>&1
+  - git push --quiet --set-upstream commit-origin master 
