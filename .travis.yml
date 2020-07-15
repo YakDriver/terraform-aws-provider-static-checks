@@ -4,7 +4,9 @@ stage: test
 install:
   - git config --global user.email "travis@travis-ci.org"
   - git config --global user.name "Travis CI"
-  - cd ${GOPATH}/src/github.com
+  - cd ${GOPATH}/src/github.com/terraform-providers
+  - ls -hal
+  - exit 1
   - mkdir terraform-providers
   - cd terraform-providers
   - git clone https://github.com/terraform-providers/terraform-provider-aws.git
