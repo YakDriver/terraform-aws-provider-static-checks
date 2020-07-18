@@ -43,7 +43,6 @@
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_instance_test.go:4080:46: AWSAT002: AMI IDs should not be hardcoded
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_instance_test.go:4250:65: AWSAT002: AMI IDs should not be hardcoded
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_instance_test.go:5107:59: AWSAT002: AMI IDs should not be hardcoded
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_launch_template_test.go:1349:21: AWSAT002: AMI IDs should not be hardcoded
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_network_interface_attachment_test.go:43:21: AWSAT002: AMI IDs should not be hardcoded
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_network_interface_test.go:622:43: AWSAT002: AMI IDs should not be hardcoded
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_network_interface_test.go:680:47: AWSAT002: AMI IDs should not be hardcoded
