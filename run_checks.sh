@@ -16,6 +16,8 @@ for test_path in ${tests[@]}; do
   awsproviderlint -${test} ${AWS_PROVIDER_PATH}/aws &> ${filenames[${#filenames[@]}-1]}
 done
 
+ls -hal ${TF_PROVIDER_LINT}
+
 tests=( ${TF_PROVIDER_LINT}/passes/{AT*,R*,S*,V*}/ )
 for test_path in ${tests[@]}; do
   test=$(basename ${test_path})
