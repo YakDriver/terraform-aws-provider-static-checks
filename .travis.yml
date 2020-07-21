@@ -8,13 +8,16 @@ install:
   - primer_lugar=${PWD}
   - git config --global user.email "travis@travis-ci.org"
   - git config --global user.name "Travis CI"
+  - export TF_PROVIDER_LINT_PATH=${GOPATH}/src/github.com/bflad/tfproviderlint
+  - export AWS_PROVIDER_PATH=${GOPATH}/src/github.com/terraform-providers/terraform-provider-aws
+  - mkdir -p ${GOPATH}/src/github.com/bflad
   - mkdir -p ${GOPATH}/src/github.com/terraform-providers
+  - cd ${GOPATH}/src/github.com/bflad
+  - git clone https://github.com/bflad/tfproviderlint.git
   - cd ${GOPATH}/src/github.com/terraform-providers
   - git clone https://github.com/terraform-providers/terraform-provider-aws.git
-  - cd terraform-provider-aws
+  - cd ${GOPATH}/src/github.com/terraform-providers/terraform-provider-aws
   - GO111MODULE=on go install ./awsproviderlint
-  - export AWS_PROVIDER_PATH=$GOPATH/src/github.com/terraform-providers/terraform-provider-aws
-  - export TF_PROVIDER_LINT=$GOPATH/src/github.com/bflad/tfproviderlint
   - cd ${primer_lugar}
 script:
   - ./run_checks.sh
