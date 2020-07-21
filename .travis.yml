@@ -17,9 +17,9 @@ install:
   - cd ${primer_lugar}
 script:
   - ./run_checks.sh
-  - git checkout master
+  - git checkout main
   - git add ./results/*
   - git add README.md
   - git commit -m "Update static checks with build $TRAVIS_BUILD_NUMBER"
   - git remote add commit-origin https://${GH_TOKEN}@github.com/YakDriver/terraform-aws-provider-static-checks.git > /dev/null 2>&1
-  - git push --quiet --set-upstream commit-origin master 
+  - git push --quiet --set-upstream commit-origin main 
