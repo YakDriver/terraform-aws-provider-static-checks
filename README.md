@@ -14,7 +14,7 @@ Count: 0
 Count: 81
 [List matches](./results/AWSAT002.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_spot_instance_request_test.go:513:21: AWSAT002: AMI IDs should not be hardcoded`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_spot_fleet_request_test.go:2040:73: AWSAT002: AMI IDs should not be hardcoded`
 
 ## AWSAT003
 
@@ -22,7 +22,7 @@ Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provi
 Count: 763
 [List matches](./results/AWSAT003.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_s3_bucket_test.go:2354:24: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_lb_test.go:1662:21: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead`
 
 ## AWSAT004
 
@@ -34,7 +34,7 @@ Count: 0
 Count: 214
 [List matches](./results/AWSAT005.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_db_instance_test.go:3838:21: AWSAT005: avoid hardcoding an AWS partition in an ARN, instead use the aws_partition data source`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_storagegateway_working_storage_test.go:36:14: AWSAT005: avoid hardcoding an AWS partition in an ARN, instead use the aws_partition data source`
 
 ## AWSAT006
 
@@ -42,7 +42,7 @@ Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provi
 Count: 508
 [List matches](./results/AWSAT006.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_codebuild_project_test.go:2970:80: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_flow_log_test.go:612:55: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source`
 
 ## AWSR001
 
@@ -52,3 +52,39 @@ Count: 0
 
 ### 
 Count: 0
+## AT*
+
+### 
+Count: 192
+[List matches](./results/AT*.txt)
+
+Example: `    	enable AT002 analysis`
+
+## README_header.md
+
+### 
+Count: 192
+[List matches](./results/R*.txt)
+
+Example: `  -S026`
+
+## README.md
+
+### 
+Count: 192
+[List matches](./results/S*.txt)
+
+Example: `    	write CPU profile to this file`
+
+## S*
+
+### 
+Count: 192
+[List matches](./results/V*.txt)
+
+Example: `  -S010`
+
+## V*
+
+### 
+Count: 
