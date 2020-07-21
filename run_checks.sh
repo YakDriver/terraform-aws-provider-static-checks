@@ -7,16 +7,6 @@ fi
 rm ./results/*txt || echo "Nothing to delete"
 mkdir results || echo "Results directory already exists"
 
-ls -hal ${TF_PROVIDER_LINT_PATH}
-
-tests=( ${TF_PROVIDER_LINT_PATH}/passes/{AT*,R*,S*,V*}/ )
-for test_path in ${tests[@]}; do
-  test=$(basename ${test_path})
-  echo "Static check: ${test}"
-done
-
-exit 1
-
 tests=( ${AWS_PROVIDER_PATH}/awsproviderlint/passes/AWS*/ )
 for test_path in ${tests[@]}; do
   test=$(basename ${test_path})
