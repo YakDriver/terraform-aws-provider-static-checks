@@ -7,6 +7,10 @@ fi
 rm ./results/*txt || echo "Nothing to delete"
 mkdir results || echo "Results directory already exists"
 
+ls -hal ${TF_PROVIDER_LINT}
+
+exit 1
+
 tests=( ${AWS_PROVIDER_PATH}/awsproviderlint/passes/AWS*/ )
 for test_path in ${tests[@]}; do
   test=$(basename ${test_path})
@@ -15,8 +19,6 @@ for test_path in ${tests[@]}; do
   filenames+=( "./results/${test}.txt" )
   awsproviderlint -${test} ${AWS_PROVIDER_PATH}/aws &> ${filenames[${#filenames[@]}-1]}
 done
-
-ls -hal ${TF_PROVIDER_LINT}
 
 tests=( ${TF_PROVIDER_LINT}/passes/{AT*,R*,S*,V*}/ )
 for test_path in ${tests[@]}; do
