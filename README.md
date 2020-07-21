@@ -14,7 +14,7 @@ Count: 0
 Count: 81
 [List matches](./results/AWSAT002.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_eip_association_test.go:467:49: AWSAT002: AMI IDs should not be hardcoded`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_spot_instance_request_test.go:513:21: AWSAT002: AMI IDs should not be hardcoded`
 
 ## AWSAT003
 
@@ -22,7 +22,7 @@ Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provi
 Count: 763
 [List matches](./results/AWSAT003.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/structure_test.go:529:42: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_s3_bucket_test.go:2354:24: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead`
 
 ## AWSAT004
 
@@ -34,15 +34,15 @@ Count: 0
 Count: 214
 [List matches](./results/AWSAT005.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_lb_listener_rule_test.go:3458:21: AWSAT005: avoid hardcoding an AWS partition in an ARN, instead use the aws_partition data source`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_db_instance_test.go:3838:21: AWSAT005: avoid hardcoding an AWS partition in an ARN, instead use the aws_partition data source`
 
 ## AWSAT006
 
 ### 
-Count: 507
+Count: 508
 [List matches](./results/AWSAT006.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_lambda_function_test.go:2435:21: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_codebuild_project_test.go:2970:80: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source`
 
 ## AWSR001
 
