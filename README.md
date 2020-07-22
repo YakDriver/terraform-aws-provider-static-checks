@@ -12,13 +12,13 @@ Count: 0
 Count: 81
 [List matches](./results/AWSAT002.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_route_test.go:1042:33: AWSAT002: AMI IDs should not be hardcoded`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_spot_instance_request_test.go:571:21: AWSAT002: AMI IDs should not be hardcoded`
 
 ###  [AWSAT003](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT003)
-Count: 763
+Count: 757
 [List matches](./results/AWSAT003.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_docdb_cluster_test.go:600:21: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_elastic_beanstalk_hosted_zone.go:18:2: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead`
 
 ###  [AWSAT004](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT004)
 Count: 0
@@ -26,13 +26,13 @@ Count: 0
 Count: 214
 [List matches](./results/AWSAT005.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_elasticache_cluster_test.go:661:113: AWSAT005: avoid hardcoding an AWS partition in an ARN, instead use the aws_partition data source`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_batch_job_queue_test.go:66:21: AWSAT005: avoid hardcoding an AWS partition in an ARN, instead use the aws_partition data source`
 
 ###  [AWSAT006](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT006)
 Count: 508
 [List matches](./results/AWSAT006.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_flow_log_test.go:654:55: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_s3_bucket_test.go:2295:16: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source`
 
 ###  [AWSR001](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSR001)
 Count: 0
@@ -50,7 +50,7 @@ Count: 0
 Count: 16
 [List matches](./results/AT004.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_instance_test.go:779:21: AT004: provider declaration should be omitted`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_opsworks_stack_test.go:721:21: AT004: provider declaration should be omitted`
 
 ###  [AT005](https://github.com/bflad/tfproviderlint/tree/master/passes/AT005)
 Count: 0
@@ -64,7 +64,7 @@ Count: 0
 Count: 17
 [List matches](./results/R001.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_vpc_dhcp_options.go:114:10: R001: ResourceData.Set() key argument should be string literal`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_vpc_dhcp_options.go:195:10: R001: ResourceData.Set() key argument should be string literal`
 
 ###  [R002](https://github.com/bflad/tfproviderlint/tree/master/passes/R002)
 Count: 0
@@ -86,7 +86,7 @@ Count: 0
 Count: 64
 [List matches](./results/R010.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_codedeploy_deployment_group.go:702:3: R010: prefer d.Get() over d.GetChange() when only using second return value`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_sns_topic.go:367:3: R010: prefer d.Get() over d.GetChange() when only using second return value`
 
 ###  [R011](https://github.com/bflad/tfproviderlint/tree/master/passes/R011)
 Count: 0
@@ -174,7 +174,7 @@ Count: 0
 Count: 126
 [List matches](./results/V001.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/validators.go:611:1: V001: custom SchemaValidateFunc should be replaced with validation.StringMatch() or validation.StringDoesNotMatch()`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/validators.go:1636:1: V001: custom SchemaValidateFunc should be replaced with validation.StringMatch() or validation.StringDoesNotMatch()`
 
 ###  [V002](https://github.com/bflad/tfproviderlint/tree/master/passes/V002)
 Count: 0
