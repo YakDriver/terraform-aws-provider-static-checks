@@ -6,187 +6,187 @@ Automatic daily rebuilds! This repo shows the current state of static checks in 
 # Checks
 ## awsproviderlint
 
-###  [AWSAT001](https
+###  [AWSAT001](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT001)
 Count: 0
-###  [AWSAT002](https
+###  [AWSAT002](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT002)
 Count: 81
 [List matches](./results/AWSAT002.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_instance_test.go:517:21: AWSAT002: AMI IDs should not be hardcoded`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_route_test.go:1042:33: AWSAT002: AMI IDs should not be hardcoded`
 
-###  [AWSAT003](https
+###  [AWSAT003](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT003)
 Count: 763
 [List matches](./results/AWSAT003.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_lb_target_group_test.go:71:23: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_docdb_cluster_test.go:600:21: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead`
 
-###  [AWSAT004](https
+###  [AWSAT004](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT004)
 Count: 0
-###  [AWSAT005](https
+###  [AWSAT005](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT005)
 Count: 214
 [List matches](./results/AWSAT005.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/validators_test.go:2561:14: AWSAT005: avoid hardcoding an AWS partition in an ARN, instead use the aws_partition data source`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_elasticache_cluster_test.go:661:113: AWSAT005: avoid hardcoding an AWS partition in an ARN, instead use the aws_partition data source`
 
-###  [AWSAT006](https
+###  [AWSAT006](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT006)
 Count: 508
 [List matches](./results/AWSAT006.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_iam_role_test.go:834:21: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_flow_log_test.go:654:55: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source`
 
-###  [AWSR001](https
+###  [AWSR001](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSR001)
 Count: 0
-###  [AWSR002](https
+###  [AWSR002](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSR002)
 Count: 0
 ## tfproviderlint
 
-###  [AT001](https
+###  [AT001](https://github.com/bflad/tfproviderlint/tree/master/passes/AT001)
 Count: 0
-###  [AT002](https
+###  [AT002](https://github.com/bflad/tfproviderlint/tree/master/passes/AT002)
 Count: 0
-###  [AT003](https
+###  [AT003](https://github.com/bflad/tfproviderlint/tree/master/passes/AT003)
 Count: 0
-###  [AT004](https
+###  [AT004](https://github.com/bflad/tfproviderlint/tree/master/passes/AT004)
 Count: 16
 [List matches](./results/AT004.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_instance_test.go:3386:21: AT004: provider declaration should be omitted`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_instance_test.go:779:21: AT004: provider declaration should be omitted`
 
-###  [AT005](https
+###  [AT005](https://github.com/bflad/tfproviderlint/tree/master/passes/AT005)
 Count: 0
-###  [AT006](https
+###  [AT006](https://github.com/bflad/tfproviderlint/tree/master/passes/AT006)
 Count: 0
-###  [AT007](https
+###  [AT007](https://github.com/bflad/tfproviderlint/tree/master/passes/AT007)
 Count: 0
-###  [AT008](https
+###  [AT008](https://github.com/bflad/tfproviderlint/tree/master/passes/AT008)
 Count: 0
-###  [R001](https
+###  [R001](https://github.com/bflad/tfproviderlint/tree/master/passes/R001)
 Count: 17
 [List matches](./results/R001.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/opsworks_layers.go:591:10: R001: ResourceData.Set() key argument should be string literal`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_vpc_dhcp_options.go:114:10: R001: ResourceData.Set() key argument should be string literal`
 
-###  [R002](https
+###  [R002](https://github.com/bflad/tfproviderlint/tree/master/passes/R002)
 Count: 0
-###  [R003](https
+###  [R003](https://github.com/bflad/tfproviderlint/tree/master/passes/R003)
 Count: 0
-###  [R004](https
+###  [R004](https://github.com/bflad/tfproviderlint/tree/master/passes/R004)
 Count: 0
-###  [R005](https
+###  [R005](https://github.com/bflad/tfproviderlint/tree/master/passes/R005)
 Count: 0
-###  [R006](https
+###  [R006](https://github.com/bflad/tfproviderlint/tree/master/passes/R006)
 Count: 0
-###  [R007](https
+###  [R007](https://github.com/bflad/tfproviderlint/tree/master/passes/R007)
 Count: 0
-###  [R008](https
+###  [R008](https://github.com/bflad/tfproviderlint/tree/master/passes/R008)
 Count: 0
-###  [R009](https
+###  [R009](https://github.com/bflad/tfproviderlint/tree/master/passes/R009)
 Count: 0
-###  [R010](https
+###  [R010](https://github.com/bflad/tfproviderlint/tree/master/passes/R010)
 Count: 64
 [List matches](./results/R010.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_codedeploy_deployment_group.go:684:3: R010: prefer d.Get() over d.GetChange() when only using second return value`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_codedeploy_deployment_group.go:702:3: R010: prefer d.Get() over d.GetChange() when only using second return value`
 
-###  [R011](https
+###  [R011](https://github.com/bflad/tfproviderlint/tree/master/passes/R011)
 Count: 0
-###  [R012](https
+###  [R012](https://github.com/bflad/tfproviderlint/tree/master/passes/R012)
 Count: 0
-###  [R013](https
+###  [R013](https://github.com/bflad/tfproviderlint/tree/master/passes/R013)
 Count: 0
-###  [R014](https
+###  [R014](https://github.com/bflad/tfproviderlint/tree/master/passes/R014)
 Count: 0
-###  [S001](https
+###  [S001](https://github.com/bflad/tfproviderlint/tree/master/passes/S001)
 Count: 0
-###  [S002](https
+###  [S002](https://github.com/bflad/tfproviderlint/tree/master/passes/S002)
 Count: 0
-###  [S003](https
+###  [S003](https://github.com/bflad/tfproviderlint/tree/master/passes/S003)
 Count: 0
-###  [S004](https
+###  [S004](https://github.com/bflad/tfproviderlint/tree/master/passes/S004)
 Count: 0
-###  [S005](https
+###  [S005](https://github.com/bflad/tfproviderlint/tree/master/passes/S005)
 Count: 0
-###  [S006](https
+###  [S006](https://github.com/bflad/tfproviderlint/tree/master/passes/S006)
 Count: 0
-###  [S007](https
+###  [S007](https://github.com/bflad/tfproviderlint/tree/master/passes/S007)
 Count: 0
-###  [S008](https
+###  [S008](https://github.com/bflad/tfproviderlint/tree/master/passes/S008)
 Count: 0
-###  [S009](https
+###  [S009](https://github.com/bflad/tfproviderlint/tree/master/passes/S009)
 Count: 0
-###  [S010](https
+###  [S010](https://github.com/bflad/tfproviderlint/tree/master/passes/S010)
 Count: 0
-###  [S011](https
+###  [S011](https://github.com/bflad/tfproviderlint/tree/master/passes/S011)
 Count: 0
-###  [S012](https
+###  [S012](https://github.com/bflad/tfproviderlint/tree/master/passes/S012)
 Count: 0
-###  [S013](https
+###  [S013](https://github.com/bflad/tfproviderlint/tree/master/passes/S013)
 Count: 0
-###  [S014](https
+###  [S014](https://github.com/bflad/tfproviderlint/tree/master/passes/S014)
 Count: 0
-###  [S015](https
+###  [S015](https://github.com/bflad/tfproviderlint/tree/master/passes/S015)
 Count: 0
-###  [S016](https
+###  [S016](https://github.com/bflad/tfproviderlint/tree/master/passes/S016)
 Count: 0
-###  [S017](https
+###  [S017](https://github.com/bflad/tfproviderlint/tree/master/passes/S017)
 Count: 0
-###  [S018](https
+###  [S018](https://github.com/bflad/tfproviderlint/tree/master/passes/S018)
 Count: 0
-###  [S019](https
+###  [S019](https://github.com/bflad/tfproviderlint/tree/master/passes/S019)
 Count: 0
-###  [S020](https
+###  [S020](https://github.com/bflad/tfproviderlint/tree/master/passes/S020)
 Count: 0
-###  [S021](https
+###  [S021](https://github.com/bflad/tfproviderlint/tree/master/passes/S021)
 Count: 0
-###  [S022](https
+###  [S022](https://github.com/bflad/tfproviderlint/tree/master/passes/S022)
 Count: 0
-###  [S023](https
+###  [S023](https://github.com/bflad/tfproviderlint/tree/master/passes/S023)
 Count: 0
-###  [S024](https
+###  [S024](https://github.com/bflad/tfproviderlint/tree/master/passes/S024)
 Count: 0
-###  [S025](https
+###  [S025](https://github.com/bflad/tfproviderlint/tree/master/passes/S025)
 Count: 0
-###  [S026](https
+###  [S026](https://github.com/bflad/tfproviderlint/tree/master/passes/S026)
 Count: 0
-###  [S027](https
+###  [S027](https://github.com/bflad/tfproviderlint/tree/master/passes/S027)
 Count: 0
-###  [S028](https
+###  [S028](https://github.com/bflad/tfproviderlint/tree/master/passes/S028)
 Count: 0
-###  [S029](https
+###  [S029](https://github.com/bflad/tfproviderlint/tree/master/passes/S029)
 Count: 0
-###  [S030](https
+###  [S030](https://github.com/bflad/tfproviderlint/tree/master/passes/S030)
 Count: 0
-###  [S031](https
+###  [S031](https://github.com/bflad/tfproviderlint/tree/master/passes/S031)
 Count: 0
-###  [S032](https
+###  [S032](https://github.com/bflad/tfproviderlint/tree/master/passes/S032)
 Count: 0
-###  [S033](https
+###  [S033](https://github.com/bflad/tfproviderlint/tree/master/passes/S033)
 Count: 0
-###  [S034](https
+###  [S034](https://github.com/bflad/tfproviderlint/tree/master/passes/S034)
 Count: 0
-###  [S035](https
+###  [S035](https://github.com/bflad/tfproviderlint/tree/master/passes/S035)
 Count: 0
-###  [S036](https
+###  [S036](https://github.com/bflad/tfproviderlint/tree/master/passes/S036)
 Count: 0
-###  [S037](https
+###  [S037](https://github.com/bflad/tfproviderlint/tree/master/passes/S037)
 Count: 0
-###  [V001](https
+###  [V001](https://github.com/bflad/tfproviderlint/tree/master/passes/V001)
 Count: 126
 [List matches](./results/V001.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/validators.go:2281:1: V001: custom SchemaValidateFunc should be replaced with validation.StringMatch() or validation.StringDoesNotMatch()`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/validators.go:611:1: V001: custom SchemaValidateFunc should be replaced with validation.StringMatch() or validation.StringDoesNotMatch()`
 
-###  [V002](https
+###  [V002](https://github.com/bflad/tfproviderlint/tree/master/passes/V002)
 Count: 0
-###  [V003](https
+###  [V003](https://github.com/bflad/tfproviderlint/tree/master/passes/V003)
 Count: 0
-###  [V004](https
+###  [V004](https://github.com/bflad/tfproviderlint/tree/master/passes/V004)
 Count: 0
-###  [V005](https
+###  [V005](https://github.com/bflad/tfproviderlint/tree/master/passes/V005)
 Count: 0
-###  [V006](https
+###  [V006](https://github.com/bflad/tfproviderlint/tree/master/passes/V006)
 Count: 0
-###  [V007](https
+###  [V007](https://github.com/bflad/tfproviderlint/tree/master/passes/V007)
 Count: 0
-###  [V008](https
+###  [V008](https://github.com/bflad/tfproviderlint/tree/master/passes/V008)
 Count: 0
