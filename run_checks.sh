@@ -11,7 +11,7 @@ tests=( ${AWS_PROVIDER_PATH}/awsproviderlint/passes/AWS*/ )
 for test_path in ${tests[@]}; do
   test=$(basename ${test_path})
   echo "Static check: ${test}"
-  descriptions+=( "awsproviderlint\: [${test}](https\://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/${test})" )
+  descriptions+=( "awsproviderlint! [${test}](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/${test})" )
   filenames+=( "./results/${test}.txt" )
   awsproviderlint -${test} ${AWS_PROVIDER_PATH}/aws &> ${filenames[${#filenames[@]}-1]}
 done
@@ -20,7 +20,7 @@ tests=( ${TF_PROVIDER_LINT_PATH}/passes/{AT*,R*,S*,V*}/ )
 for test_path in ${tests[@]}; do
   test=$(basename ${test_path})
   echo "Static check: ${test}"
-  descriptions+=( "tfproviderlint\: [${test}](https\://github.com/bflad/tfproviderlint/tree/master/passes/${test})" )
+  descriptions+=( "tfproviderlint! [${test}](https://github.com/bflad/tfproviderlint/tree/master/passes/${test})" )
   filenames+=( "./results/${test}.txt" )
   awsproviderlint -${test} ${AWS_PROVIDER_PATH}/aws &> ${filenames[${#filenames[@]}-1]}
 done
@@ -48,7 +48,7 @@ printf "# %s\n" "Checks" >> ${readmeFile}
 
 lastTitle=""
 for i in "${!descriptions[@]}"; do
-  IFS=':'
+  IFS='!'
   read -ra titleDesc <<< "${descriptions[$i]}"
   title="${titleDesc[0]}"
   description="${titleDesc[1]}"
