@@ -6,187 +6,187 @@ Automatic daily rebuilds! This repo shows the current state of static checks in 
 # Checks
 ## awsproviderlint
 
-###  [https
+###  [AWSAT001](https
 Count: 0
-###  [https
+###  [AWSAT002](https
 Count: 81
 [List matches](./results/AWSAT002.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_spot_fleet_request_test.go:1478:73: AWSAT002: AMI IDs should not be hardcoded`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_instance_test.go:517:21: AWSAT002: AMI IDs should not be hardcoded`
 
-###  [https
+###  [AWSAT003](https
 Count: 763
 [List matches](./results/AWSAT003.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_shield_protection_test.go:530:21: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_lb_target_group_test.go:71:23: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead`
 
-###  [https
+###  [AWSAT004](https
 Count: 0
-###  [https
+###  [AWSAT005](https
 Count: 214
 [List matches](./results/AWSAT005.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_cloudwatch_log_resource_policy_test.go:94:70: AWSAT005: avoid hardcoding an AWS partition in an ARN, instead use the aws_partition data source`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/validators_test.go:2561:14: AWSAT005: avoid hardcoding an AWS partition in an ARN, instead use the aws_partition data source`
 
-###  [https
+###  [AWSAT006](https
 Count: 508
 [List matches](./results/AWSAT006.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_waf_web_acl_test.go:635:21: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_iam_role_test.go:834:21: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source`
 
-###  [https
+###  [AWSR001](https
 Count: 0
-###  [https
+###  [AWSR002](https
 Count: 0
 ## tfproviderlint
 
-###  [https
+###  [AT001](https
 Count: 0
-###  [https
+###  [AT002](https
 Count: 0
-###  [https
+###  [AT003](https
 Count: 0
-###  [https
+###  [AT004](https
 Count: 16
 [List matches](./results/AT004.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_opsworks_stack_test.go:721:21: AT004: provider declaration should be omitted`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_instance_test.go:3386:21: AT004: provider declaration should be omitted`
 
-###  [https
+###  [AT005](https
 Count: 0
-###  [https
+###  [AT006](https
 Count: 0
-###  [https
+###  [AT007](https
 Count: 0
-###  [https
+###  [AT008](https
 Count: 0
-###  [https
+###  [R001](https
 Count: 17
 [List matches](./results/R001.txt)
 
 Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/opsworks_layers.go:591:10: R001: ResourceData.Set() key argument should be string literal`
 
-###  [https
+###  [R002](https
 Count: 0
-###  [https
+###  [R003](https
 Count: 0
-###  [https
+###  [R004](https
 Count: 0
-###  [https
+###  [R005](https
 Count: 0
-###  [https
+###  [R006](https
 Count: 0
-###  [https
+###  [R007](https
 Count: 0
-###  [https
+###  [R008](https
 Count: 0
-###  [https
+###  [R009](https
 Count: 0
-###  [https
+###  [R010](https
 Count: 64
 [List matches](./results/R010.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_sns_topic.go:349:3: R010: prefer d.Get() over d.GetChange() when only using second return value`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_codedeploy_deployment_group.go:684:3: R010: prefer d.Get() over d.GetChange() when only using second return value`
 
-###  [https
+###  [R011](https
 Count: 0
-###  [https
+###  [R012](https
 Count: 0
-###  [https
+###  [R013](https
 Count: 0
-###  [https
+###  [R014](https
 Count: 0
-###  [https
+###  [S001](https
 Count: 0
-###  [https
+###  [S002](https
 Count: 0
-###  [https
+###  [S003](https
 Count: 0
-###  [https
+###  [S004](https
 Count: 0
-###  [https
+###  [S005](https
 Count: 0
-###  [https
+###  [S006](https
 Count: 0
-###  [https
+###  [S007](https
 Count: 0
-###  [https
+###  [S008](https
 Count: 0
-###  [https
+###  [S009](https
 Count: 0
-###  [https
+###  [S010](https
 Count: 0
-###  [https
+###  [S011](https
 Count: 0
-###  [https
+###  [S012](https
 Count: 0
-###  [https
+###  [S013](https
 Count: 0
-###  [https
+###  [S014](https
 Count: 0
-###  [https
+###  [S015](https
 Count: 0
-###  [https
+###  [S016](https
 Count: 0
-###  [https
+###  [S017](https
 Count: 0
-###  [https
+###  [S018](https
 Count: 0
-###  [https
+###  [S019](https
 Count: 0
-###  [https
+###  [S020](https
 Count: 0
-###  [https
+###  [S021](https
 Count: 0
-###  [https
+###  [S022](https
 Count: 0
-###  [https
+###  [S023](https
 Count: 0
-###  [https
+###  [S024](https
 Count: 0
-###  [https
+###  [S025](https
 Count: 0
-###  [https
+###  [S026](https
 Count: 0
-###  [https
+###  [S027](https
 Count: 0
-###  [https
+###  [S028](https
 Count: 0
-###  [https
+###  [S029](https
 Count: 0
-###  [https
+###  [S030](https
 Count: 0
-###  [https
+###  [S031](https
 Count: 0
-###  [https
+###  [S032](https
 Count: 0
-###  [https
+###  [S033](https
 Count: 0
-###  [https
+###  [S034](https
 Count: 0
-###  [https
+###  [S035](https
 Count: 0
-###  [https
+###  [S036](https
 Count: 0
-###  [https
+###  [S037](https
 Count: 0
-###  [https
+###  [V001](https
 Count: 126
 [List matches](./results/V001.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/validators.go:908:1: V001: custom SchemaValidateFunc should be replaced with validation.StringMatch() or validation.StringDoesNotMatch()`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/validators.go:2281:1: V001: custom SchemaValidateFunc should be replaced with validation.StringMatch() or validation.StringDoesNotMatch()`
 
-###  [https
+###  [V002](https
 Count: 0
-###  [https
+###  [V003](https
 Count: 0
-###  [https
+###  [V004](https
 Count: 0
-###  [https
+###  [V005](https
 Count: 0
-###  [https
+###  [V006](https
 Count: 0
-###  [https
+###  [V007](https
 Count: 0
-###  [https
+###  [V008](https
 Count: 0
