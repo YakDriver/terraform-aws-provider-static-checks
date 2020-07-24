@@ -122,8 +122,8 @@
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_lb_listener_rule_test.go:26:14: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_lb_listener_rule_test.go:30:14: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_lb_listener_rule_test.go:35:14: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_lb_listener_rule_test.go:3458:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_lb_listener_rule_test.go:3710:9: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_lb_listener_rule_test.go:3139:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_lb_listener_rule_test.go:3359:9: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_lb_target_group_test.go:71:23: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_lb_target_group_test.go:76:23: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_lb_test.go:72:23: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
