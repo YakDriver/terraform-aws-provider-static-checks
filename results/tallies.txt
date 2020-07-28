@@ -1,7 +1,7 @@
 Tallies
 0	awsproviderlint! [AWSAT001](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT001)
-65	awsproviderlint! [AWSAT002](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT002)
-728	awsproviderlint! [AWSAT003](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT003)
+24	awsproviderlint! [AWSAT002](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT002)
+719	awsproviderlint! [AWSAT003](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT003)
 0	awsproviderlint! [AWSAT004](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT004)
 228	awsproviderlint! [AWSAT005](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT005)
 506	awsproviderlint! [AWSAT006](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT006)
@@ -10,7 +10,7 @@ Tallies
 0	tfproviderlint! [AT001](https://github.com/bflad/tfproviderlint/tree/master/passes/AT001)
 0	tfproviderlint! [AT002](https://github.com/bflad/tfproviderlint/tree/master/passes/AT002)
 0	tfproviderlint! [AT003](https://github.com/bflad/tfproviderlint/tree/master/passes/AT003)
-16	tfproviderlint! [AT004](https://github.com/bflad/tfproviderlint/tree/master/passes/AT004)
+15	tfproviderlint! [AT004](https://github.com/bflad/tfproviderlint/tree/master/passes/AT004)
 0	tfproviderlint! [AT005](https://github.com/bflad/tfproviderlint/tree/master/passes/AT005)
 0	tfproviderlint! [AT006](https://github.com/bflad/tfproviderlint/tree/master/passes/AT006)
 0	tfproviderlint! [AT007](https://github.com/bflad/tfproviderlint/tree/master/passes/AT007)
