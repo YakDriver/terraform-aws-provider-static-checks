@@ -1,6 +1,6 @@
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_cur_report_definition_test.go:63:21: AT004: provider declaration should be omitted
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_eip_test.go:221:57: AT004: provider declaration should be omitted
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/provider_test.go:1505:54: AT004: provider declaration should be omitted
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/provider_test.go:1508:54: AT004: provider declaration should be omitted
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_cur_report_definition_test.go:108:21: AT004: provider declaration should be omitted
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_default_security_group_test.go:169:54: AT004: provider declaration should be omitted
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_eip_association_test.go:410:51: AT004: provider declaration should be omitted
