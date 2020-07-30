@@ -3,7 +3,7 @@
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_appmesh_virtual_node.go:357:3: R010: prefer d.Get() over d.GetChange() when only using second return value
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_appmesh_virtual_router.go:181:3: R010: prefer d.Get() over d.GetChange() when only using second return value
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_appmesh_virtual_service.go:186:3: R010: prefer d.Get() over d.GetChange() when only using second return value
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_cloudwatch_log_group.go:212:3: R010: prefer d.Get() over d.GetChange() when only using second return value
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_cloudwatch_log_group.go:211:3: R010: prefer d.Get() over d.GetChange() when only using second return value
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_codedeploy_deployment_group.go:674:3: R010: prefer d.Get() over d.GetChange() when only using second return value
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_codedeploy_deployment_group.go:679:3: R010: prefer d.Get() over d.GetChange() when only using second return value
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_codedeploy_deployment_group.go:684:3: R010: prefer d.Get() over d.GetChange() when only using second return value
