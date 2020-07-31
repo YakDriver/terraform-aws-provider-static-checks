@@ -60,5 +60,5 @@
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_sns_topic.go:361:3: R010: prefer d.Get() over d.GetChange() when only using second return value
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_sns_topic.go:367:3: R010: prefer d.Get() over d.GetChange() when only using second return value
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_sqs_queue.go:252:5: R010: prefer d.Get() over d.GetChange() when only using second return value
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_ssm_parameter.go:202:3: R010: prefer d.Get() over d.GetChange() when only using second return value
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_ssm_parameter.go:222:3: R010: prefer d.Get() over d.GetChange() when only using second return value
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_subnet.go:280:3: R010: prefer d.Get() over d.GetChange() when only using second return value
