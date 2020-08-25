@@ -11,7 +11,7 @@
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_flow_log.go:234:9: R001: ResourceData.Set() key argument should be string literal
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_sns_sms_preferences.go:137:9: R001: ResourceData.Set() key argument should be string literal
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_sns_sms_preferences.go:144:10: R001: ResourceData.Set() key argument should be string literal
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_vpc_dhcp_options.go:188:10: R001: ResourceData.Set() key argument should be string literal
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_vpc_dhcp_options.go:195:10: R001: ResourceData.Set() key argument should be string literal
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_vpc_dhcp_options.go:183:10: R001: ResourceData.Set() key argument should be string literal
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_vpc_dhcp_options.go:190:10: R001: ResourceData.Set() key argument should be string literal
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_autoscaling_group_waiting_test.go:126:20: R001: ResourceData.Set() key argument should be string literal
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_autoscaling_group_waiting_test.go:208:20: R001: ResourceData.Set() key argument should be string literal
