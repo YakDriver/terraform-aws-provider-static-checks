@@ -89,6 +89,7 @@
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_flow_log_test.go:471:43: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_gamelift_test.go:30:25: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_glue_job_test.go:663:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_guardduty_publishing_destination_test.go:133:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_iam_service_linked_role_test.go:93:14: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_iam_service_linked_role_test.go:97:18: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_iam_service_linked_role_test.go:104:18: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source

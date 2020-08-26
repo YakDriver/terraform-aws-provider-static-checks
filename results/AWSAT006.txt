@@ -1,7 +1,7 @@
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/config.go:418:15: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_ip_ranges.go:71:15: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/provider.go:1021:4: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/provider.go:1023:4: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/provider.go:1025:4: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_apigatewayv2_stage.go:307:35: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_apigatewayv2_stage.go:310:36: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_apigatewayv2_stage.go:312:36: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
@@ -243,6 +243,7 @@
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_guardduty_ipset_test.go:159:21: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_guardduty_ipset_test.go:186:21: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_guardduty_ipset_test.go:217:21: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_guardduty_publishing_destination_test.go:133:21: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_guardduty_threatintelset_test.go:159:21: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_guardduty_threatintelset_test.go:186:21: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_guardduty_threatintelset_test.go:217:21: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
