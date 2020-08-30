@@ -33,6 +33,7 @@ Tallies
 18	tfproviderlint! [R015](https://github.com/bflad/tfproviderlint/tree/master/passes/R015)
 6	tfproviderlint! [R016](https://github.com/bflad/tfproviderlint/tree/master/passes/R016)
 26	tfproviderlint! [R017](https://github.com/bflad/tfproviderlint/tree/master/passes/R017)
+198	tfproviderlint! [R018](https://github.com/bflad/tfproviderlint/tree/master/passes/R018)
 0	tfproviderlint! [S001](https://github.com/bflad/tfproviderlint/tree/master/passes/S001)
 0	tfproviderlint! [S002](https://github.com/bflad/tfproviderlint/tree/master/passes/S002)
 0	tfproviderlint! [S003](https://github.com/bflad/tfproviderlint/tree/master/passes/S003)
