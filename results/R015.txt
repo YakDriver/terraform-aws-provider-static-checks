@@ -13,6 +13,7 @@
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_route_tables.go:75:10: R015: schema attributes should be stable across Terraform runs
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_s3_bucket_objects.go:73:10: R015: schema attributes should be stable across Terraform runs
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_security_groups.go:83:10: R015: schema attributes should be stable across Terraform runs
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_vpc_peering_connections.go:59:10: R015: schema attributes should be stable across Terraform runs
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_ebs_encryption_by_default.go:38:10: R015: schema attributes should be stable across Terraform runs
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_iam_user_group_membership.go:50:10: R015: schema attributes should be stable across Terraform runs
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_iam_user_group_membership.go:181:10: R015: schema attributes should be stable across Terraform runs
