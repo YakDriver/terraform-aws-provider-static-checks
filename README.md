@@ -20,13 +20,13 @@ Count: 0
 Count: 3
 [List matches](./results/AWSAT002.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/validators_test.go:1182:14: AWSAT002: AMI IDs should not be hardcoded`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_instance_test.go:4308:53: AWSAT002: AMI IDs should not be hardcoded`
 
 ###  [AWSAT003](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT003)
-Count: 620
+Count: 618
 [List matches](./results/AWSAT003.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_lambda_permission_test.go:142:13: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/hosted_zones.go:30:2: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead`
 
 ###  [AWSAT004](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT004)
 Count: 0
@@ -34,23 +34,23 @@ Count: 0
 Count: 228
 [List matches](./results/AWSAT005.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/validators_test.go:364:3: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_kinesis_firehose_delivery_stream_migrate_test.go:20:28: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source`
 
 ###  [AWSAT006](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT006)
 Count: 492
 [List matches](./results/AWSAT006.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_iot_endpoint_test.go:89:104: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_codepipeline_webhook_test.go:336:21: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source`
 
 ###  [AWSR001](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSR001)
 Count: 0
 ###  [AWSR002](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSR002)
 Count: 0
 ###  [AWSV001](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSV001)
-Count: 455
+Count: 445
 [List matches](./results/AWSV001.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_s3_bucket.go:613:53: AWSV001: prefer AWS Go SDK ENUM_Values() function (ignore if not applicable)`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_ecs_capacity_provider.go:53:47: AWSV001: prefer AWS Go SDK ENUM_Values() function (ignore if not applicable)`
 
 ## tfproviderlint
 
@@ -64,7 +64,7 @@ Count: 0
 Count: 14
 [List matches](./results/AT004.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_instance_test.go:3341:78: AT004: provider declaration should be omitted`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_lightsail_domain_test.go:129:21: AT004: provider declaration should be omitted`
 
 ###  [AT005](https://github.com/bflad/tfproviderlint/tree/master/passes/AT005)
 Count: 0
@@ -78,7 +78,7 @@ Count: 0
 Count: 17
 [List matches](./results/R001.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_autoscaling_group_waiting_test.go:126:20: R001: ResourceData.Set() key argument should be string literal`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/opsworks_layers.go:583:11: R001: ResourceData.Set() key argument should be string literal`
 
 ###  [R002](https://github.com/bflad/tfproviderlint/tree/master/passes/R002)
 Count: 0
@@ -100,7 +100,7 @@ Count: 0
 Count: 63
 [List matches](./results/R010.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_sns_topic.go:355:3: R010: prefer d.Get() over d.GetChange() when only using second return value`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_sns_topic.go:301:3: R010: prefer d.Get() over d.GetChange() when only using second return value`
 
 ###  [R011](https://github.com/bflad/tfproviderlint/tree/master/passes/R011)
 Count: 0
@@ -114,25 +114,25 @@ Count: 0
 Count: 19
 [List matches](./results/R015.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_ec2_local_gateway_virtual_interface_groups.go:68:10: R015: schema attributes should be stable across Terraform runs`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_ebs_encryption_by_default.go:38:10: R015: schema attributes should be stable across Terraform runs`
 
 ###  [R016](https://github.com/bflad/tfproviderlint/tree/master/passes/R016)
 Count: 6
 [List matches](./results/R016.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_elb_attachment.go:69:10: R016: schema attributes should be stable across Terraform runs`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_iam_user_policy_attachment.go:50:10: R016: schema attributes should be stable across Terraform runs`
 
 ###  [R017](https://github.com/bflad/tfproviderlint/tree/master/passes/R017)
 Count: 26
 [List matches](./results/R017.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_inspector_rules_packages.go:32:10: R017: schema attributes should be stable across Terraform runs`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_route53_resolver_rules.go:94:10: R017: schema attributes should be stable across Terraform runs`
 
 ###  [R018](https://github.com/bflad/tfproviderlint/tree/master/passes/R018)
 Count: 198
 [List matches](./results/R018.txt)
 
-Example: `    	enable S001 analysis`
+Example: `  -fix`
 
 ###  [S001](https://github.com/bflad/tfproviderlint/tree/master/passes/S001)
 Count: 0
@@ -212,7 +212,7 @@ Count: 0
 Count: 124
 [List matches](./results/V001.txt)
 
-Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/validators.go:511:1: V001: custom SchemaValidateFunc should be replaced with validation.StringMatch() or validation.StringDoesNotMatch()`
+Example: `/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/validators.go:1700:1: V001: custom SchemaValidateFunc should be replaced with validation.StringMatch() or validation.StringDoesNotMatch()`
 
 ###  [V002](https://github.com/bflad/tfproviderlint/tree/master/passes/V002)
 Count: 0
