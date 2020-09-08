@@ -163,7 +163,7 @@
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_sns_topic_test.go:540:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_sns_topic_test.go:567:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_sns_topic_test.go:641:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_spot_fleet_request_test.go:1298:28: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_spot_fleet_request_test.go:1296:28: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_sqs_queue_test.go:233:3: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_sqs_queue_test.go:660:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_ssm_activation_test.go:245:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
