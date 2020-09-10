@@ -152,6 +152,7 @@
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_datasync_task.go:128:47: AWSV001: prefer AWS Go SDK ENUM_Values() function (ignore if not applicable)
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_datasync_task.go:139:47: AWSV001: prefer AWS Go SDK ENUM_Values() function (ignore if not applicable)
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_db_instance.go:444:45: AWSV001: prefer AWS Go SDK ENUM_Values() function (ignore if not applicable)
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_db_proxy_default_target_group.go:79:48: AWSV001: prefer AWS Go SDK ENUM_Values() function (ignore if not applicable)
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_default_network_acl.go:88:47: AWSV001: prefer AWS Go SDK ENUM_Values() function (ignore if not applicable)
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_default_network_acl.go:148:47: AWSV001: prefer AWS Go SDK ENUM_Values() function (ignore if not applicable)
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_directory_service_directory.go:43:44: AWSV001: prefer AWS Go SDK ENUM_Values() function (ignore if not applicable)
