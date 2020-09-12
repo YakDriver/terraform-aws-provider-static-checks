@@ -71,7 +71,7 @@
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_cognito_identity_pool_test.go:514:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_cognito_user_pool_client_test.go:471:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_config_config_rule_test.go:433:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_config_configuration_aggregator_test.go:279:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_config_configuration_aggregator_test.go:281:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_cur_report_definition_test.go:318:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_cur_report_definition_test.go:386:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_db_instance_test.go:3818:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
