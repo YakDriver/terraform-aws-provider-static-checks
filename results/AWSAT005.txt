@@ -83,9 +83,6 @@
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_ecs_task_definition_test.go:1796:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_ecs_task_definition_test.go:1868:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_eks_cluster_test.go:521:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_elasticache_cluster_test.go:637:122: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_elasticache_cluster_test.go:661:113: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_elasticache_cluster_test.go:665:113: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_emr_cluster_test.go:2930:55: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_emr_cluster_test.go:3162:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_emr_cluster_test.go:3363:21: AWSAT005: avoid hardcoded ARN AWS partitions, use aws_partition data source
