@@ -1,7 +1,7 @@
 Tallies
 0	awsproviderlint! [AWSAT001](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT001)
 2	awsproviderlint! [AWSAT002](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT002)
-581	awsproviderlint! [AWSAT003](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT003)
+575	awsproviderlint! [AWSAT003](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT003)
 0	awsproviderlint! [AWSAT004](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT004)
 228	awsproviderlint! [AWSAT005](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT005)
 491	awsproviderlint! [AWSAT006](https://github.com/terraform-providers/terraform-provider-aws/tree/master/awsproviderlint/passes/AWSAT006)

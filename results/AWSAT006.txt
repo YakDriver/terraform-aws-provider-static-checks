@@ -1,4 +1,4 @@
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/config.go:418:15: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/config.go:422:15: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_ip_ranges.go:71:15: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/provider.go:1037:4: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/provider.go:1039:4: AWSAT006: avoid hardcoding AWS partition DNS suffixes, instead use the aws_partition data source
