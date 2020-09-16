@@ -17,7 +17,7 @@
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_inspector_rules_packages.go:32:10: R017: schema attributes should be stable across Terraform runs
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_kms_alias.go:63:10: R017: schema attributes should be stable across Terraform runs
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_kms_ciphertext.go:46:10: R017: schema attributes should be stable across Terraform runs
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_kms_secrets.go:104:10: R017: schema attributes should be stable across Terraform runs
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_kms_secrets.go:102:10: R017: schema attributes should be stable across Terraform runs
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_partition.go:31:10: R017: schema attributes should be stable across Terraform runs
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_regions.go:56:10: R017: schema attributes should be stable across Terraform runs
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/data_source_aws_route53_resolver_rules.go:94:10: R017: schema attributes should be stable across Terraform runs
