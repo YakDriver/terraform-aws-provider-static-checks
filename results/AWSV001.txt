@@ -235,7 +235,7 @@
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_emr_cluster.go:466:44: AWSV001: prefer AWS Go SDK ENUM_Values() function (ignore if not applicable)
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_flow_log.go:48:44: AWSV001: prefer AWS Go SDK ENUM_Values() function (ignore if not applicable)
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_flow_log.go:88:44: AWSV001: prefer AWS Go SDK ENUM_Values() function (ignore if not applicable)
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_fsx_lustre_file_system.go:116:44: AWSV001: prefer AWS Go SDK ENUM_Values() function (ignore if not applicable)
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_fsx_lustre_file_system.go:118:44: AWSV001: prefer AWS Go SDK ENUM_Values() function (ignore if not applicable)
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_fsx_windows_file_system.go:184:44: AWSV001: prefer AWS Go SDK ENUM_Values() function (ignore if not applicable)
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_fsx_windows_file_system.go:209:44: AWSV001: prefer AWS Go SDK ENUM_Values() function (ignore if not applicable)
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_gamelift_alias.go:53:47: AWSV001: prefer AWS Go SDK ENUM_Values() function (ignore if not applicable)
