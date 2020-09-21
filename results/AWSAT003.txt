@@ -141,7 +141,7 @@
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/hosted_zones.go:33:2: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/hosted_zones.go:34:2: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/provider.go:65:19: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead
-/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/provider.go:997:4: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead
+/home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/provider.go:999:4: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_config_aggregate_authorization.go:171:29: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_default_vpc_dhcp_options.go:42:18: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead
 /home/travis/gopath/src/github.com/terraform-providers/terraform-provider-aws/aws/resource_aws_devicefarm_project.go:42:15: AWSAT003: regions should not be hardcoded, use aws_region and aws_availability_zones data sources instead
